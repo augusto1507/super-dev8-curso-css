@@ -1,9 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #37353E;
+}
+
 h2{
     color: rgb(127, 255, 212);
 }
 p{
     color: lawngreen;
 }
-body{
-    background-color: #37353E;
+a{
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+a:hover{
+    color: orangered;
+}
+div{
+    background-color: #44444E;
+    
 }
