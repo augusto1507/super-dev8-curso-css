@@ -1,0 +1,103 @@
+.demonstracao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+}
+
+
+a:hover {
+    color: yellow;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.borda-solid {
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 3px;
+
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 3px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 3px;
+
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 3px;
+
+    background-color: #FFF;
+
+}
+
+.borda-dashed {
+    border-top: 4px dashed #f59e0b;
+    border-right: 4px dashed #f59e0b;
+    border-bottom: 4px dashed #f59e0b;
+    border-left: 4px dashed #f59e0b;
+
+    background-color: yellow;
+}
+
+.borda-dotted {
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #ef4444 #ef4444 #ef4444 #ef4444;
+    background-color: darkolivegreen;
+}
+
+.borda-double {
+    border-width: 6px;
+    border-color: #72ab6e;
+    border-style: double;
+    background-color: brown;
+}
+
+.borda-groove {
+    border: 8px #1096be groove;
+    background-color: #91c3ea;
+}
+
+.borda-ridge {
+    border: 8px #6a084d ridge;
+    background-color: #f59e0b;
+}
+
+.borda-inset {
+    border: 8px #6b4c70 inset;
+    background-color: #f20505;
+}
+
+.borda-outset {
+    border: 8px #315fc6 outset;
+    background-color: #ff08c5;
+
+}
+
+.borda-radius-diferente {
+    border: 8px #819283 solid;
+    border-radius: 10px 30px 20px 5px;
+}
+.borda-radius-diferente:hover{
+    border-color: #047211;
+    cursor: pointer;
+}
+
+.borda-radius-iguais {
+    border: 8px #864363 solid;
+    border-radius: 80px;
+    background-color: #f59e0b;
+}
