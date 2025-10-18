@@ -1,26 +1,30 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #37353E;
 }
 
-h2{
+h2 {
     color: rgb(127, 255, 212);
 }
-p{
+
+p {
     color: lawngreen;
 }
-a{
-    color: #FFF;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    
-}
-a:hover{
-    color: orangered;
-}
-div{
+
+div {
     background-color: #44444E;
-    
+
+
+    a {
+        color: #FFF;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+
+    }
+
+    a:hover {
+        color: orangered;
+    }
 }
