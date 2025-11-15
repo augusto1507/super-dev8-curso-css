@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.links{
+    text-align: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #f429cf;
+    padding: 10px;
+   
+}
+
+a:hover{
+    color: #dba6d1;
+}
