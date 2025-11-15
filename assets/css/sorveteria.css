@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(180deg, #eefaf7, #d4f4ff);
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #189c8e ;
+    padding: 5px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.butnav{
+    border-radius: 20px;
+    background-color: #49ab9f;
+    border-color: #49ab9f;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.divsobre{
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sobre{
+    max-width: 400px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre h2{
+    color: #117468;
+}
+
+.sabordia{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #189c8e;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.sorvete{
+    font-size: 80px;
+    background: radial-gradient(circle at 20% 20%, #ffffff, #c4f3e6 40%, #9be7ff 75%);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.sabores{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+}
+
+.sabores h2{
+    color: #117468;
+}
+
+.venda{
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tipos{
+    background-color: #fff;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    padding-left:40px ;
+    padding-right: 40px;
+    max-height: 150px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 180px
+}
+
+.tipos button{
+    border: 0px;
+    background-color: #e7f9f3;
+    border-radius: 20px;
+    color: #1f7d71;
+    
+}
+
+.divcombo{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divcombo h2{
+    color: #117468;
+}
+
+.tipocombo{
+    background-color: #fff;
+    width: 800px;
+    margin: 20px;
+    border-left: #117468 4px solid;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+
+.baixo{
+    background-color: #189c8e;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    max-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numero button{
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #65c4b7;
+    color: #fff;
+}
+
+.venda span{
+    font-size: 30px;
+}
